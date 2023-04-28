@@ -1,21 +1,22 @@
-Reference, Quantity, Value, Footprint, Datasheet
-C1 C3 C11 C16 C9 ,5,"3.3u","Capacitors_THT:CP_Radial_D5.0mm_P2.50mm","https://akizukidenshi.com/catalog/g/gP-04636/"
-C10 ,1,"22u","Capacitors_THT:CP_Radial_D5.0mm_P2.50mm","https://akizukidenshi.com/catalog/g/gP-03177/"
-C4 C7 C15 C8 ,4,"220p","Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm","https://akizukidenshi.com/catalog/g/gP-08127/"
-C5 C6 C12 C13 C14 C2 ,6,"2200p","Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm","https://akizukidenshi.com/catalog/g/gP-07686/"
-IC1 IC4 ,2,"NJU7043D","Qux_Footprint:IC_Socket_Straight_2x04_Pitch2.54mm_opamp","http://akizukidenshi.com/catalog/g/gI-06840/"
-IC2 ,1,"V3102","Qux_Footprint:IC_Socket_Straight_2x04_Pitch2.54mm","https://akizukidenshi.com/catalog/g/gI-13279/"
-IC3 ,1,"V3205","Qux_Footprint:IC_Socket_for_V3205","https://akizukidenshi.com/catalog/g/gI-13278/"
-J1 J2 ,2,"AudioJack_TRS","Qux_Footprint:Audio_Jack_Stereo_3.5mm_MJ-352W-o_TRS","http://akizukidenshi.com/catalog/g/gC-08958/"
-P1 ,1,"Conn_Power_USB","Qux_Footprint:Conn_Power_USBmicro_THT","http://akizukidenshi.com/catalog/g/gC-10398/"
-P2 P3 ,2,"Conn_01x02","QuxFootprint:pin_socket_1x2",""
-R1 R3 R6 R7 R16 R17 ,6,"10k","Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",""
-R10 ,1,"4.7k","Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",""
-R12 R13 ,2,"5.6k","Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",""
-R19 ,1,"68k","Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",""
-R2 R15 ,2,"43k","Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",""
-R4 R11 R14 ,3,"100k","Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",""
-R5 ,1,"120k","Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",""
-R8 R18 ,2,"33k","Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",""
-R9 ,1,"22k","Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",""
-RV2 ,1,"50k","Qux_Footprint:Potentiometer_Trimmer-Suntan-TSR-3386K","https://akizukidenshi.com/catalog/g/gP-06112/"
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+1,7,"C1, C3, C14, C15, C16, C17, C18",3.3u,delay-rescue:CP-Device,Capacitors_THT:CP_Radial_D5.0mm_P2.50mm,https://akizukidenshi.com/catalog/g/gP-04636/
+2,6,"C2, C5, C6, C10, C11, C12",2200p,Device:C,Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm,https://akizukidenshi.com/catalog/g/gP-07686/
+3,4,"C4, C7, C8, C13",220p,Device:C,Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm,https://akizukidenshi.com/catalog/g/gP-08127/
+4,1,C9,22u,delay-rescue:CP-Device,Capacitors_THT:CP_Radial_D5.0mm_P2.50mm,https://akizukidenshi.com/catalog/g/gP-03177/
+5,3,"IC1, IC3, IC5",NJU7043D,delay-rescue:NJU7043D-Opamp_Qux,Qux_Footprint:IC_Socket_Straight_2x04_Pitch2.54mm_opamp,http://akizukidenshi.com/catalog/g/gI-06840/
+6,1,IC2,V3102,delay-rescue:V3102-IC_Analog_Qux,Qux_Footprint:IC_Socket_Straight_2x04_Pitch2.54mm,https://akizukidenshi.com/catalog/g/gI-13279/
+7,3,"IC4, IC6, IC7",NJU7043D,delay-rescue:V3205-IC_Analog_Qux,Qux_Footprint:IC_Socket_Straight_2x04_Pitch2.54mm_opamp,http://akizukidenshi.com/catalog/g/gI-06840/
+8,2,"J1, J2",AudioJack_TRS,delay-rescue:AudioJack_TRS-Connector_Qux,Qux_Footprint:Audio_Jack_Stereo_3.5mm_MJ-352W-o_TRS,http://akizukidenshi.com/catalog/g/gC-08958/
+9,1,P1,Conn_Power_USB,delay-rescue:Conn_Power_USB-Connector_Qux,Qux_Footprint:Conn_Power_USBmicro_THT,http://akizukidenshi.com/catalog/g/gC-10398/
+10,2,"P2, P3",Conn_01x02,delay-rescue:Conn_01x02,QuxFootprint:pin_socket_1x2,
+11,7,"R1, R16, R19, R23, R26, R30, R33",100k,Device:R,Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,~
+12,1,R2,120k,Device:R,Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,~
+13,10,"R3, R5, R6, R7, R12, R13, R20, R21, R27, R28",10k,Device:R,Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,~
+14,2,"R4, R11",43k,Device:R,Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,~
+15,2,"R8, R14",33k,Device:R,Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,~
+16,1,R9,22k,Device:R,Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,~
+17,1,R10,4.7k,Device:R,Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,~
+18,1,R15,68k,Device:R,Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,~
+19,6,"R17, R18, R24, R25, R31, R32",5.6k,Device:R,Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,~
+20,2,"R22, R29",0 (no mount),Device:R,Qux_Footprint:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,~
+21,1,RV1,50k,delay-rescue:POT,Qux_Footprint:Potentiometer_Trimmer-Suntan-TSR-3386K,https://akizukidenshi.com/catalog/g/gP-06112/
